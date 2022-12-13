@@ -1,0 +1,218 @@
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #2a2c2f;
+}
+
+/* HEADER */
+
+.header {
+}
+
+.logo {
+}
+
+.logo_place_header {
+}
+
+.header__lang-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  text-align: right;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo_place_header:active {
+  text-decoration-line: underline;
+}
+
+.main {
+}
+
+/* LEAD */
+
+.lead {
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  /* or 104% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.title_size_sm {
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.title_size_md {
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.title_size_lg {
+  font-size: 96px;
+  line-height: 100px;
+}
+
+.subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.subtitle_size_sm {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.subtitle_size_md {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.lead__img {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.lead__caption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* INTRO */
+
+.intro__list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  color: #ffffff;
+}
+
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */
+
+  color: #ffffff;
+}
+
+/* photo-grid */
+
+.photo-grid {
+}
+
+.photo-grid__item {
+}
+
+/* places */
+
+.places {
+}
+
+.place {
+}
+
+.place__img {
+}
+
+.place__website {
+}
+
+.place__url {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 170%;
+  /* or 20px */
+
+  letter-spacing: 2px;
+
+  color: #aaaaaa;
+}
+
+.place__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+.place__paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+
+  color: #ffffff;
+}
+
+/* to-baikal */
+
+.to-baikal {
+}
+
+.cover {
+}
+
+.overlay {
+}
+
+/* footer */
+
+.footer {
+}
+
+.nav {
+}
+
+.nav-list {
+}
+
+.nav-list__item {
+}
+
+.copyright {
+}
