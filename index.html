@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путешествия по России</title>
+    <link rel="stylesheet" href="/vendor/normalize.css" />
+    <link rel="stylesheet" href="/vendor/fonts.css" />
     <link rel="stylesheet" href="/pages/index.css" />
   </head>
   <body class="page">
@@ -35,7 +37,7 @@
         </p>
       </section>
       <section class="intro">
-        <h2 class="title">Чего мы там не видели?</h2>
+        <h2 class="title title_size_sm">Чего мы там не видели?</h2>
         <p class="text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
           36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
@@ -56,23 +58,75 @@
         </p>
       </section>
       <section class="photo-grid">
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-train.jpg"
+          alt="Поезд"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-atharva-tulsi.jpg"
+          alt="Атхарва-Тулси"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-tuman.jpg"
+          alt="Туман"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-sochi.jpg"
+          alt="Сочи"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-arisa.jpg"
+          alt="Ариса"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-baikal.jpg"
+          alt="Байкал"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-elbrus.jpg"
+          alt="Эльбрус"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-kondratiev.jpg"
+          alt="Кондратьев"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-kamchatka-1.jpg"
+          alt="Камчатка"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-kamchatka-2.jpg"
+          alt="Камчатка"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-baikal-2.jpg"
+          alt="Байкал"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-ergaki.jpg"
+          alt="Ергаки"
+        />
       </section>
       <section class="places">
         <div class="place">
-          <h2 class="title">Куршская коса</h2>
-          <img class="place__img" src="" alt="" />
+          <h2 class="title title_size_md">Куршская коса</h2>
+          <img
+            class="place__img"
+            src="/images/place-kosa.jpg"
+            alt="Куршская коса"
+          />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a href="http://park-kosa.ru/" class="place__link">park-kosa.ru</a>
@@ -93,8 +147,12 @@
           </p>
         </div>
         <div class="place">
-          <h2 class="title">Кольский</h2>
-          <img class="place__img" src="" alt="" />
+          <h2 class="title title_size_md">Кольский</h2>
+          <img
+            class="place__img"
+            src="/images/place-kolsky.jpg"
+            alt="Кольский"
+          />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a href="https://www.nationalgeographic.com/" class="place__link"
@@ -116,8 +174,8 @@
           </p>
         </div>
         <div class="place">
-          <h2 class="title">Алтай</h2>
-          <img class="place__img" src="" alt="" />
+          <h2 class="title title_size_md">Алтай</h2>
+          <img class="place__img" src="/images/place-altai.jpg" alt="Алтай" />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a href="https://www.youtube.com/" class="place__link">YouTube </a>
@@ -136,8 +194,12 @@
           </p>
         </div>
         <div class="place">
-          <h2 class="title">Зимний Байкал</h2>
-          <img class="place__img" src="" alt="" />
+          <h2 class="title title_size_md">Зимний Байкал</h2>
+          <img
+            class="place__img"
+            src="/images/place-winter-baikal.jpg"
+            alt="Зимний Байкал"
+          />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a href="https://vk.com/baikalmile" class="place__link"
@@ -158,8 +220,12 @@
           </p>
         </div>
         <div class="place">
-          <h2 class="title">Карелия</h2>
-          <img class="place__img" src="" alt="" />
+          <h2 class="title title_size_md">Карелия</h2>
+          <img
+            class="place__img"
+            src="/images/place-karelia.jpg"
+            alt="Карелия"
+          />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a href="http://vodlozero.ru/" class="place__link"
@@ -180,13 +246,14 @@
         </div>
       </section>
       <section class="to-baikal">
-        <div class="cover">
-          <h2 class="title">До Байкала «на собаках»</h2>
-          <p class="subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до
-            Байкала на электричках.
-          </p>
-          <div class="overlay"></div>
+        <div class="overlay">
+          <div class="cover">
+            <h2 class="title title_size_md">До Байкала «на собаках»</h2>
+            <p class="subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
+          </div>
         </div>
       </section>
     </main>
@@ -194,19 +261,19 @@
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-list__item">
-            <a href="" class="nav-list__link">Карты</a>__item-link
+            <a href="" class="nav-list__item-link">Карты</a>
           </li>
           <li class="nav-list__item">
-            <a href="" class="nav-list__link">Погода</a>__item-link
+            <a href="" class="nav-list__item-link">Погода</a>
           </li>
           <li class="nav-list__item">
-            <a href="" class="nav-list__link">Расписание</a>__item-link
+            <a href="" class="nav-list__item-link">Расписание</a>
           </li>
           <li class="nav-list__item">
-            <a href="" class="nav-list__link">Календарь</a>__item-link
+            <a href="" class="nav-list__item-link">Календарь</a>
           </li>
           <li class="nav-list__item">
-            <a href="" class="nav-list__link">Путешествия</a>__item-link
+            <a href="" class="nav-list__item-link">Путешествия</a>
           </li>
         </ul>
       </nav>
