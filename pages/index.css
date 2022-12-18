@@ -2,34 +2,20 @@
   max-width: 1280px;
   margin: 0 auto;
   background: #2a2c2f;
-  display: grid;
-  grid-template-columns: repeat(1, minmax(320px, 1280px));
-  grid-auto-rows: auto;
-  justify-content: center;
 }
 
 /* HEADER */
 
 .header {
-  display: grid;
-  width: calc(100% - 7.5%);
-  margin: 0 auto;
-  margin-top: 28px;
-  grid-template-columns: 1fr 5% 5%;
-
-  align-items: center;
 }
 
 .logo {
-  max-width: 100%;
 }
 
 .logo_place_header {
-  max-width: 100%;
 }
 
 .header__lang-link {
-  max-width: 100%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -41,9 +27,8 @@
   text-decoration: none;
 }
 
-.header__lang-link:active,
-.header__lang-link:hover {
-  text-decoration: underline;
+.logo_place_header:active {
+  text-decoration-line: underline;
 }
 
 .main {
@@ -52,13 +37,9 @@
 /* LEAD */
 
 .lead {
-  max-width: 984px;
-  margin: 0 auto;
-  margin-top: 56px;
 }
 
 .title {
-  margin: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -85,50 +66,32 @@
 }
 
 .subtitle {
-  margin: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   /* or 120% */
-  margin: 0 auto;
+
   text-align: center;
 
   color: #ffffff;
 }
 
-.subtitle_place_lead {
-  max-width: 640px;
-  font-size: 30px;
-  line-height: 36px;
-  margin: 32px auto 64px;
-}
-
-.subtitle_place_to-baikal {
-  max-width: 360px;
+.subtitle_size_sm {
   font-size: 18px;
   line-height: 22px;
 }
 
-.text {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
-  /* or 26px */
-
-  color: #ffffff;
+.subtitle_size_md {
+  font-size: 30px;
+  line-height: 36px;
 }
 
-.lead__pic {
-  max-width: 984px;
-  padding-bottom: 62.5%;
-  background: url(/images/lead-polka.jpg) no-repeat;
-  background-size: cover;
+.lead__img {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
 }
 
 .lead__caption {
@@ -139,29 +102,13 @@
   line-height: 14px;
   /* identical to box height, or 140% */
 
-  color: #ffffff;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 /* INTRO */
 
-.intro__wrapper {
-  max-width: 690px;
-  margin: 92px 442px 92px 148px;
-}
-
-.intro__title {
-}
-
-.intro__text {
-  margin: 40px auto 33px;
-}
-
 .intro__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -172,29 +119,23 @@
   color: #ffffff;
 }
 
-.intro__span {
+.text {
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */
+
+  color: #ffffff;
 }
 
 /* photo-grid */
 
 .photo-grid {
-  max-width: calc(100% - 7.5%);
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 16px;
-  justify-content: center;
-
-  grid-auto-flow: dense;
 }
 
 .photo-grid__item {
-  max-width: 100%;
-  max-height: 100%;
-
-  object-fit: cover;
 }
 
 /* places */
@@ -254,16 +195,9 @@
 }
 
 .cover {
-  background: url(/images/cover-trains.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
-.overlay:hover {
-  width: 100%;
-
-  background: #2a2c2f;
-  opacity: 0.3;
+.overlay {
 }
 
 /* footer */
@@ -281,7 +215,4 @@
 }
 
 .copyright {
-}
-
-.nav-list__item-link {
 }
