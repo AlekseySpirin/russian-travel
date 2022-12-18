@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путешествия по России</title>
+    <link rel="stylesheet" href="/vendor/normalize.css" />
+    <link rel="stylesheet" href="/vendor/fonts.css" />
     <link rel="stylesheet" href="/pages/index.css" />
   </head>
   <body class="page">
@@ -22,41 +24,125 @@
     </header>
     <main class="main">
       <section class="lead">
-        <h1 class="title title_size_lg">Путешествия по России</h1>
-        <p class="subtitle">
+        <h1 class="title title_size_lg">Путешествия по&nbsp;России</h1>
+        <p class="subtitle subtitle_place_lead">
           Настоящая страна не в выпусках новостей, а здесь.
-          <picture>
+        </p>
+        <div class="lead__pic"></div>
+        <!-- <picture>
             <source srcset="320" media="(max-width: 800px" />
             <img
               class="lead__img"
               src="/images/lead-polka.jpg"
               alt="Карта России"
             />
-            <caption class="lead__caption">
-              ваша полка — верхняя
-            </caption>
-          </picture>
-        </p>
+          </picture> -->
+        <caption>
+          <p class="lead__caption">ваша полка — верхняя</p>
+        </caption>
       </section>
       <section class="intro">
-
+        <div class="intro__wrapper">
+          <h2 class="title intro__title title_size_sm">
+            Чего мы там не видели?
+          </h2>
+          <p class="text intro__text">
+            По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
+            36% планируют провести отпуск в родной стране. Мол, чего мы тут,
+            дома, не видели? На самом деле, Россия — это целая вселенная с
+            ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+            Путорана. А ещё увидеть все эти красоты можно без миллионов на
+            счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
+            Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
+            усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
+            стране. Мы выбрали и описали некоторые интересные места, достойные
+            вашего отпуска.
+          </p>
+          <ul class="intro__list">
+            <li>Часовых поясов <span class="intro__span">11</span></li>
+            <li>
+              Объектов природного наследия ЮНЕСКО
+              <span class="intro__span">12</span>
+            </li>
+            <li>
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__span">16</span>
+            </li>
+            <li>Природных заповедников <span class="intro__span">105</span></li>
+            <li>Аэропортов <span class="intro__span"> 241</span></li>
+          </ul>
+        </div>
       </section>
       <section class="photo-grid">
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
-        <img class="photo-grid__item" src="" alt="" />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-train.jpg"
+          alt="Поезд"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-atharva-tulsi.jpg"
+          alt="Атхарва-Тулси"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-tuman.jpg"
+          alt="Туман"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-sochi.jpg"
+          alt="Сочи"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-arisa.jpg"
+          alt="Ариса"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-baikal.jpg"
+          alt="Байкал"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-elbrus.jpg"
+          alt="Эльбрус"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-kondratiev.jpg"
+          alt="Кондратьев"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-kamchatka-1.jpg"
+          alt="Камчатка"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-kamchatka-2.jpg"
+          alt="Камчатка"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-baikal-2.jpg"
+          alt="Байкал"
+        />
+        <img
+          class="photo-grid__item"
+          src="/images/photo-grid-ergaki.jpg"
+          alt="Ергаки"
+        />
       </section>
       <section class="places">
-
+        <div class="place">
+          <h2 class="title place__title title_size_md">Куршская коса</h2>
+          <img
+            class="place__img"
+            src="/images/place-kosa.jpg"
+            alt="Куршская коса"
+          />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a href="http://park-kosa.ru/" class="place__link">park-kosa.ru</a>
@@ -79,7 +165,12 @@
           </div>
         </div>
         <div class="place">
-
+          <h2 class="title place__title title_size_md">Кольский</h2>
+          <img
+            class="place__img"
+            src="/images/place-kolsky.jpg"
+            alt="Кольский"
+          />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a
@@ -106,7 +197,8 @@
           </div>
         </div>
         <div class="place">
-
+          <h2 class="title place__title title_size_md">Алтай</h2>
+          <img class="place__img" src="/images/place-altai.jpg" alt="Алтай" />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a
@@ -132,7 +224,12 @@
           </div>
         </div>
         <div class="place">
-
+          <h2 class="title place__title title_size_md">Зимний Байкал</h2>
+          <img
+            class="place__img"
+            src="/images/place-winter-baikal.jpg"
+            alt="Зимний Байкал"
+          />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a href="https://vk.com/baikalmile" class="place__link"
@@ -155,7 +252,12 @@
           </div>
         </div>
         <div class="place">
-
+          <h2 class="title place__title title_size_md">Карелия</h2>
+          <img
+            class="place__img"
+            src="/images/place-karelia.jpg"
+            alt="Карелия"
+          />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a href="http://vodlozero.ru" class="place__link"
@@ -178,7 +280,24 @@
         </div>
       </section>
       <section class="to-baikal">
-
+        <div class="wrapper__to-baikal">
+          <a
+            href="https://stampsy.com/na-elektrichkakh-do-baikala"
+            class="to-baikal__link"
+          >
+            <div class="cover">
+              <div class="overlay"></div>
+              <div class="wrapper__text-to-baikal">
+                <h2 class="title title_place_to-baikal title_size_md">
+                  До Байкала «на собаках»
+                </h2>
+                <p class="subtitle subtitle_place_to-baikal">
+                  По мотивам учебной темы о Транссибе — путешествие от столицы
+                  до Байкала на электричках.
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
       </section>
     </main>
@@ -186,7 +305,29 @@
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-list__item">
-
+            <a href="https://yandex.ru/maps" class="nav-list__item-link"
+              >Карты</a
+            >
+          </li>
+          <li class="nav-list__item">
+            <a href="https://yandex.ru/pogoda" class="nav-list__item-link"
+              >Погода</a
+            >
+          </li>
+          <li class="nav-list__item">
+            <a href="https://rasp.yandex.ru" class="nav-list__item-link"
+              >Расписание</a
+            >
+          </li>
+          <li class="nav-list__item">
+            <a href="https://calendar.yandex.ru" class="nav-list__item-link"
+              >Календарь</a
+            >
+          </li>
+          <li class="nav-list__item">
+            <a href="https://travel.yandex.ru" class="nav-list__item-link"
+              >Путешествия</a
+            >
           </li>
         </ul>
       </nav>
