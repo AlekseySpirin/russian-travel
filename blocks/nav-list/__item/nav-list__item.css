@@ -1,0 +1,7 @@
+.nav-list__item {
+  margin-right: 18px;
+}
+
+.nav-list__item:hover {
+  opacity: 0.8;
+}

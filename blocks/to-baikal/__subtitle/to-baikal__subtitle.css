@@ -1,0 +1,7 @@
+.to-baikal__subtitle {
+  max-width: 360px;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  z-index: 5;
+}
