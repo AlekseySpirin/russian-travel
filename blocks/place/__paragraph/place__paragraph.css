@@ -1,4 +1,5 @@
 .place__paragraph {
+  max-width: 100%;
   margin: 0;
   font-family: "Inter";
   font-style: normal;
@@ -6,11 +7,6 @@
   font-size: 18px;
   line-height: 163%;
   /* or 29px */
-
-  grid-column-start: 2;
-  grid-column-end: 3;
-
-  z-index: 1;
 
   color: #ffffff;
 }
