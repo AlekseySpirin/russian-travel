@@ -16,10 +16,10 @@
         alt="logo"
       />
       <div class="header__lang">
-        <a href="" class="header__lang-link header__lang-link_style_underline"
+        <a href="#!" class="header__lang-link header__lang-link_style_underline"
           >Ru</a
         >
-        <a href="" class="header__lang-link">En</a>
+        <a href="#!" class="header__lang-link">En</a>
       </div>
     </header>
     <main class="main">
@@ -136,15 +136,16 @@
       <section class="places">
         <div class="place">
           <h2 class="title place__title">Куршская коса</h2>
+          <div class="place__website">
+            <p class="place__url">URL</p>
+            <a href="http://park-kosa.ru/" class="place__link">park-kosa.ru</a>
+          </div>
           <img
             class="place__img"
             src="/images/place-kosa.jpg"
             alt="Куршская коса"
           />
-          <div class="place__website">
-            <p class="place__url">URL</p>
-            <a href="http://park-kosa.ru/" class="place__link">park-kosa.ru</a>
-          </div>
+
           <div class="place__paragraph">
             <p class="place__text">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
@@ -164,11 +165,6 @@
         </div>
         <div class="place">
           <h2 class="title place__title">Кольский</h2>
-          <img
-            class="place__img"
-            src="/images/place-kolsky.jpg"
-            alt="Кольский"
-          />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a
@@ -177,6 +173,12 @@
               >National Geographic</a
             >
           </div>
+          <img
+            class="place__img"
+            src="/images/place-kolsky.jpg"
+            alt="Кольский"
+          />
+
           <div class="place__paragraph">
             <p class="place__text">
               Почти весь полуостров находится за Полярным кругом. Саамская
@@ -196,7 +198,6 @@
         </div>
         <div class="place">
           <h2 class="title place__title">Алтай</h2>
-          <img class="place__img" src="/images/place-altai.jpg" alt="Алтай" />
           <div class="place__website">
             <p class="place__url">URL</p>
             <a
@@ -205,6 +206,7 @@
               >YouTube
             </a>
           </div>
+          <img class="place__img" src="/images/place-altai.jpg" alt="Алтай" />
           <div class="place__paragraph">
             <p class="place__text">
               Алтай — одно из красивейших мест в России. В&nbsp;первую очередь
@@ -223,17 +225,18 @@
         </div>
         <div class="place">
           <h2 class="title place__title">Зимний Байкал</h2>
-          <img
-            class="place__img"
-            src="/images/place-winter-baikal.jpg"
-            alt="Зимний Байкал"
-          />
+
           <div class="place__website">
             <p class="place__url">URL</p>
             <a href="https://vk.com/baikalmile" class="place__link"
               >https://vk.com/baikalmile</a
             >
           </div>
+          <img
+            class="place__img"
+            src="/images/place-winter-baikal.jpg"
+            alt="Зимний Байкал"
+          />
           <div class="place__paragraph">
             <p class="place__text">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также
@@ -251,17 +254,18 @@
         </div>
         <div class="place">
           <h2 class="title place__title">Карелия</h2>
-          <img
-            class="place__img"
-            src="/images/place-karelia.jpg"
-            alt="Карелия"
-          />
+
           <div class="place__website">
             <p class="place__url">URL</p>
             <a href="http://vodlozero.ru" class="place__link"
               >http://vodlozero.ru/</a
             >
           </div>
+          <img
+            class="place__img"
+            src="/images/place-karelia.jpg"
+            alt="Карелия"
+          />
           <div class="place__paragraph">
             <p class="place__text">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -284,6 +288,19 @@
             class="to-baikal__link"
           >
             <div class="to-baikal__cover">
+              <h2 class="title to-baikal__title">До Байкала «на собаках»</h2>
+              <p class="subtitle to-baikal__subtitle">
+                По мотивам учебной темы о Транссибе — путешествие от столицы до
+                Байкала на электричках.
+              </p>
+            </div>
+          </a>
+
+          <!-- <a
+            href="https://stampsy.com/na-elektrichkakh-do-baikala"
+            class="to-baikal__link"
+          >
+            <div class="to-baikal__cover">
               <div class="to-baikal__overlay"></div>
               <div class="to-baikal__wrapper-text">
                 <h2 class="title to-baikal__title">До Байкала «на собаках»</h2>
@@ -293,7 +310,7 @@
                 </p>
               </div>
             </div>
-          </a>
+          </a> -->
         </div>
       </section>
     </main>
