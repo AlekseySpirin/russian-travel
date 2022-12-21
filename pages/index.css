@@ -43,6 +43,7 @@
 
 /* photo-grid */
 
+@import url(../blocks/photo-grid/__wrapper/photo-grid__wrapper.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
@@ -79,7 +80,6 @@
 @import url(../blocks/nav-list/__item-link/nav-list__item-link.css);
 @import url(../blocks/copyright/copyright.css);
 
-@import url(../);
 @import url(../);
 @import url(../);
 @import url(../);
