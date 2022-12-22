@@ -10,3 +10,11 @@
   .nav-list {
   }
 }
+
+@media (max-width: 320px) {
+  .nav-list {
+    flex-direction: column;
+    max-width: 186px;
+    min-height: 248px;
+  }
+}

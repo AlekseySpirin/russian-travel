@@ -9,3 +9,9 @@
     margin-top: 90px;
   }
 }
+
+@media (max-width: 320px) {
+  .to-baikal__wrapper {
+    margin-top: 66px;
+  }
+}
