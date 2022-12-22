@@ -1,7 +1,7 @@
 .place__text {
   margin: 0;
   padding: 0;
-  margin-bottom: 26px;
+  margin-bottom: 25px;
   font-family: "Inter";
   color: #ffffff;
   font-style: normal;
@@ -17,7 +17,7 @@
 @media (max-width: 768px) {
   .place__text {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 162%;
     margin-bottom: 25px;
   }
 }
@@ -25,6 +25,6 @@
 @media (max-width: 320px) {
   .place__text {
     font-size: 16px;
-    line-height: 163%;
+    line-height: 162%;
   }
 }

@@ -6,3 +6,7 @@
 .nav-list__item:hover {
   opacity: 0.8;
 }
+
+.nav-list__item:last-child {
+  margin-right: 0;
+}
