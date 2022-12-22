@@ -27,6 +27,7 @@
     max-width: 720px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto, 1fr);
+    margin-bottom: 88px;
   }
 }
 

@@ -3,3 +3,9 @@
   margin: 0 auto;
   margin-top: 92px;
 }
+
+@media (max-width: 768px) {
+  .to-baikal__wrapper {
+    margin-top: 90px;
+  }
+}

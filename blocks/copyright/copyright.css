@@ -1,9 +1,9 @@
 .copyright {
-  width: 50%;
+  width: 30%;
   display: flex;
   margin: 0;
-  justify-content: space-between;
-  justify-content: end;
+  align-items: center;
+  justify-content: center;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
