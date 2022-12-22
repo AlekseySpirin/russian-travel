@@ -1,7 +1,18 @@
 .to-baikal__subtitle {
   max-width: 360px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 122%;
   position: relative;
   z-index: 5;
+}
+
+@media (max-width: 320px) {
+  .to-baikal__subtitle {
+    max-width: 273px;
+    font-size: 14px;
+    line-height: 114%;
+  }
 }

@@ -5,3 +5,11 @@
   line-height: 107%;
   /* identical to box height, or 107% ,58px*/
 }
+
+@media (max-width: 320px) {
+  .intro__title {
+    max-width: 80%;
+    font-size: 32px;
+    line-height: 109%;
+  }
+}

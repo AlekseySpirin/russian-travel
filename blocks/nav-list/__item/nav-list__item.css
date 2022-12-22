@@ -10,3 +10,12 @@
 .nav-list__item:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 320px) {
+  .nav-list__item {
+    margin-bottom: 32px;
+  }
+  .nav-list__item:last-child {
+    margin: 0;
+  }
+}
