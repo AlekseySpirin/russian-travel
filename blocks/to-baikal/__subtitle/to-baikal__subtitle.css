@@ -9,6 +9,12 @@
   z-index: 5;
 }
 
+@media (max-width: 700px) {
+  .to-baikal__subtitle {
+    font-size: calc(14px + 4 * (100vw / 1280));
+  }
+}
+
 @media (max-width: 320px) {
   .to-baikal__subtitle {
     max-width: 273px;
