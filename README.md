@@ -20,3 +20,5 @@
 - -ms- (используется в Edge и Internet Explorer);
 - -webkit- (используется в Safari, Chrome и браузерах на основе движков WebKit и Blink);
 - -o- — используется в старых версиях браузера Opera, работающего на движке Presto. С 2013 г. Opera перешла на движок Blink.
+
+https://alekseyspirin.github.io/russian-travel/

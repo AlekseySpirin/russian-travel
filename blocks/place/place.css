@@ -3,6 +3,7 @@
   margin: 0 auto;
   margin-bottom: 80px;
   max-width: 984px;
+
   grid-template-columns: calc(320px + 140 * (100vw / 1280)) calc(
       288px + 196 * (100vw / 1280)
     );
@@ -14,6 +15,21 @@
 
 .place:last-child {
   margin-bottom: 0;
+}
+
+@media (min-width: 1281px) {
+  .place {
+    display: grid;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 984px;
+    grid-template-columns: 460px 484px;
+
+    grid-auto-rows: auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 48px;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1024px) {
