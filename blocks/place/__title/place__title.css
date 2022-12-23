@@ -1,6 +1,6 @@
 .place__title {
   text-align: start;
-
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
   max-width: 100%;
   grid-auto-columns: min-content;
   align-self: flex-end;
