@@ -1,9 +1,4 @@
 .nav {
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.nav {
   width: 70%;
   display: flex;
 }
