@@ -9,6 +9,17 @@
   /*76px or 106% */
 }
 
+@media (max-width: 1024px) {
+  .to-baikal__title {
+  }
+}
+
+@media (max-width: 700px) {
+  .to-baikal__title {
+    font-size: calc(32px + 50 * (100vw / 1280));
+  }
+}
+
 @media (max-width: 320px) {
   .to-baikal__title {
     font-size: 32px;
