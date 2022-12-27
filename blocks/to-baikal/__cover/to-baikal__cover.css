@@ -4,29 +4,4 @@
   position: relative;
   padding-bottom: 62.5%;
   background: url(../../../images/cover-trains.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  z-index: 1;
-}
-
-.to-baikal__cover::before {
-  content: "";
-  background-color: #2a2c2f;
-  opacity: 0.3;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transition: 0.3s;
-  z-index: -1;
-}
-
-.to-baikal__cover:hover::before {
-  opacity: 0.8;
 }

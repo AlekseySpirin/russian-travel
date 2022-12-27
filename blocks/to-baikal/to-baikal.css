@@ -1,3 +1,36 @@
 .to-baikal {
+  max-width: 1184px;
+  padding: 19% 0;
+  margin: 0 auto;
+  margin-top: 92px;
   position: relative;
+
+  /* min-height: 69vh; */
+  background: url(../../../images/cover-trains.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .to-baikal {
+  }
+}
+
+@media (max-width: 768px) {
+  .to-baikal {
+    margin-top: 90px;
+    padding: 15% 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .to-baikal {
+    margin-top: 66px;
+    padding: 10% 0;
+  }
 }

@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 160%;
 }
 
 .place__text:last-child {
@@ -25,6 +25,6 @@
 @media (max-width: 320px) {
   .place__text {
     font-size: 16px;
-    line-height: 164%;
+    line-height: 163%;
   }
 }
