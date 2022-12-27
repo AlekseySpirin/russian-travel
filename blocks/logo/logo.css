@@ -1,6 +1,8 @@
 .logo {
   width: 176px;
   height: 52px;
+  max-width: 100%;
+  justify-self: start;
 }
 
 @media (max-width: 320px) {

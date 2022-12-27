@@ -6,7 +6,6 @@
 @media (max-width: 320px) {
   .nav {
     max-width: 186px;
-    min-height: 248px;
     flex-direction: column;
   }
 }

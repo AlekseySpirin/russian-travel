@@ -4,15 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="../russian-travel/pages/index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
     <header class="header">
-      <img
-        class="logo logo_place_header"
-        src="./images/svg/header-logo.svg"
-        alt="Логотип"
-      />
+      <img class="logo" src="./images/svg/header-logo.svg" alt="Логотип" />
       <div class="header__lang">
         <a href="#!" class="header__lang-link header__lang-link_style_underline"
           >Ru</a
@@ -26,7 +22,7 @@
         <p class="subtitle lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <div class="lead__pic"></div>
+        <img class="lead__pic" src="../../../images/lead-polka.jpg" alt="" />
 
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
@@ -277,6 +273,19 @@
         </div>
       </section>
       <section class="to-baikal">
+        <a
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          class="to-baikal__link"
+        >
+          <h2 class="title to-baikal__title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="subtitle to-baikal__subtitle">
+            По мотивам учебной темы о&nbsp;Транссибе — путешествие от столицы до
+            Байкала на&nbsp;электричках.
+          </p>
+        </a>
+      </section>
+
+      <!-- <section class="to-baikal">
         <div class="to-baikal__wrapper">
           <a
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
@@ -289,41 +298,31 @@
                 </h2>
                 <p class="subtitle to-baikal__subtitle">
                   По мотивам учебной темы о&nbsp;Транссибе — путешествие
-                  от&nbsp;столицы до Байкала наэлектричках.
+                  от&nbsp;столицы до Байкала на электричках.
                 </p>
               </div>
             </div>
           </a>
         </div>
-      </section>
+      </section> -->
     </main>
     <footer class="footer">
       <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-list__item">
-            <a href="https://yandex.ru/maps" class="nav-list__item-link"
-              >Карты</a
-            >
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="https://yandex.ru/maps" class="nav__link">Карты</a>
           </li>
-          <li class="nav-list__item">
-            <a href="https://yandex.ru/pogoda" class="nav-list__item-link"
-              >Погода</a
-            >
+          <li class="nav__item">
+            <a href="https://yandex.ru/pogoda" class="nav__link">Погода</a>
           </li>
-          <li class="nav-list__item">
-            <a href="https://rasp.yandex.ru" class="nav-list__item-link"
-              >Расписание</a
-            >
+          <li class="nav__item">
+            <a href="https://rasp.yandex.ru" class="nav__link">Расписание</a>
           </li>
-          <li class="nav-list__item">
-            <a href="https://calendar.yandex.ru" class="nav-list__item-link"
-              >Календарь</a
-            >
+          <li class="nav__item">
+            <a href="https://calendar.yandex.ru" class="nav__link">Календарь</a>
           </li>
-          <li class="nav-list__item">
-            <a href="https://travel.yandex.ru" class="nav-list__item-link"
-              >Путешествия</a
-            >
+          <li class="nav__item">
+            <a href="https://travel.yandex.ru" class="nav__link">Путешествия</a>
           </li>
         </ul>
       </nav>

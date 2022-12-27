@@ -1,21 +1,21 @@
-.nav-list__item {
+.nav__item {
   margin-right: 18px;
   transition: 0.3s;
 }
 
-.nav-list__item:hover {
+.nav__item:hover {
   opacity: 0.8;
 }
 
-.nav-list__item:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
 
 @media (max-width: 725px) {
-  .nav-list__item {
+  .nav__item {
     margin-bottom: 32px;
   }
-  .nav-list__item:last-child {
+  .nav__item:last-child {
     margin: 0;
   }
 }

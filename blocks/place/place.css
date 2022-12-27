@@ -19,7 +19,6 @@
 
 @media (min-width: 1281px) {
   .place {
-    display: grid;
     margin: 0 auto;
     margin-bottom: 80px;
     width: 984px;
