@@ -6,7 +6,6 @@
 
 @media (max-width: 1024px) {
   .intro__wrapper {
-    max-width: 690px;
     margin: 92px 0 92px 48px;
   }
 }

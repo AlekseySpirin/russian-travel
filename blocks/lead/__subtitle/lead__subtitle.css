@@ -12,21 +12,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .lead__subtitle {
-    margin-bottom: 56px;
-  }
-}
-
-@media (max-width: 500px) {
-  .lead__subtitle {
-    line-height: 125%;
-    margin-top: 16px;
-    font-size: calc(16px + 14 * (100vw / 1280));
-    margin-bottom: 40px;
-  }
-}
-
 @media (max-width: 500px) {
   .lead__subtitle {
     font-size: 16px;
